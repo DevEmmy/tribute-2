@@ -4,28 +4,28 @@ import { Container, Text } from './Styled'
 
 const Banner = () => {
   return (
-    <Container>
+    <Container padding="10px" id="details">
         <Text align="center" weight="600" fontSize="24px">
             {details.title}
         </Text>
 
-        <Text>
+        <Text padding="10px 0">
             <span>Date & Time:</span> {details.time}
         </Text>
 
-        <Text>
+        <Text padding="10px 0">
             <span><a href={details.link}>Zoom Link</a></span>
         </Text>
 
-        <Text>
+        <Text padding="10px 0">
             <span>Meeting ID:</span>{details.id}
         </Text>
 
-        <Text>
+        <Text padding="10px 0">
             <span>Passcode:</span>{details.passcode}
         </Text>
 
-        <Text>
+        <Text padding="10px 0">
             <span>Address:</span>{details.address}
         </Text>
     </Container>
