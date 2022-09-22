@@ -14,11 +14,11 @@ export const details = {
     More on his life on earth will be updated upon his resurrection. Stay tuned.`,
 
     title: "Bro. Eric Ehiorobu Udele's Burial",
-    time: "Time: Sep 24, 2022 10:00 AM",
+    time: " Sep 24, 2022 12:00 PM",
     link: "https://jworg.zoom.us/j/89131560323",
-    id: "891 3156 0323",
-    passcode: 240922,
-    address: "the Pa Eric's Compound Idumu-Igbonta, Ake, Igbanke, Edo State.",
+    id: " 891 3156 0323",
+    passcode: " 240922",
+    address: " Idumu-Ugbonta, Ake, Igbanke, Edo State.",
 }
 
 export const tributes = [

@@ -30,7 +30,7 @@ export const Banner = styled.div`
 
     img.tribute{
         width: 100%;
-        height: 300px;
+        max-height: 500px;
         object-fit: cover;
     }
 `
