@@ -68,7 +68,7 @@ const Header = () => {
         />
       </Icon>
 
-        <Text align="center" fontSize="25px" padding="10px 0">
+        <Text align="center" fontSize="25px" family="Dancing Script" weight="600" padding="10px 0">
           {details.name}
         </Text>
 
@@ -76,7 +76,7 @@ const Header = () => {
           <img src={img} alt="" />
         </Banner>
 
-        <Text align="center" fontSize="25px" padding="20px 0 0" id="biography">
+        <Text align="center" weight="600" family="Dancing Script" fontSize="25px" padding="20px 0 0" id="biography">
           Biography
         </Text>
         <Text padding="10px">

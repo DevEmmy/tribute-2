@@ -39,7 +39,7 @@ const Gallery = () => {
 
   return (
     <Container id="gallery">
-      <Text align="center" fontSize="24px" weight="600" padding="10px">
+      <Text align="center" fontSize="24px" family="Dancing Script" weight="600" padding="10px">
         Gallery
       </Text>
         <Carousel responsive={responsive}>

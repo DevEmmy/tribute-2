@@ -8,12 +8,13 @@ export const Container = styled.div`
 `
 
 export const Text = styled.div`
-    color:${({color})=> color || "#c0b410"};
+    color:${({color})=> color || "#bb6d14"};
     font-size: ${({fontSize})=> fontSize};
     font-weight: ${({weight})=> weight};
     text-align: ${({align})=> align};
     padding: ${({padding})=> padding};
     background: ${({bg})=> bg };
+    font-family: ${({family})=> family || "lora"};
 
     span{
         font-weight: 600;
@@ -45,7 +46,7 @@ export const Card = styled.div`
     box-sizing: border-box;
     min-height: 200px;
     border-radius: 10px;
-    background-color: ${({bg})=> bg|| "#c0b410"};
+    background-color: ${({bg})=> bg|| "#bb6d14"};
     color: white;
     padding: 10px;
     margin: 0 auto;
@@ -76,7 +77,7 @@ export const Icon = styled.div`
     /* display: flex; */
     position: fixed;
     width: 100%;
-    background-color: #c0b410;
+    background-color: #bb6d14;
     top: 0px;
     left: 0px;
     z-index: 10000000000000;

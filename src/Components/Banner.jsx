@@ -5,7 +5,7 @@ import { Container, Text } from './Styled'
 const Banner = () => {
   return (
     <Container padding="10px" id="details">
-        <Text align="center" weight="600" fontSize="24px">
+        <Text align="center" weight="600" family="Dancing Script" fontSize="24px">
             {details.title}
         </Text>
 

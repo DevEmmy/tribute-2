@@ -7,7 +7,7 @@ import { tributes } from './details';
 const Tribute = () => {
   return (
     <TributeContainer id='tributes'>
-      <Text align="center" fontSize='26px' fontWeight="600">
+      <Text align="center" family="Dancing Script"  fontSize='26px' weight="600">
           Tributes
       </Text>
         <Swiper
