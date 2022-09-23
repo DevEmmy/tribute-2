@@ -24,3 +24,7 @@ code {
 /* a{
   color: inherit;
 } */
+
+audio{
+opacity:0;
+}
