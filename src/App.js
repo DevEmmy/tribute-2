@@ -5,7 +5,7 @@ import Header from './Components/Header';
 import Banner from './Components/Banner';
 import Tribute from './Components/Tribute';
 import Gallery from './Components/Gallery';
-import audio from './Components/images/audio.mpeg'
+import audio from './Components/images/audio.mpga'
 function App() {
     const audioRef = useRef()
   const [play, setPlay] = useState(true)
