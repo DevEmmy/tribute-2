@@ -16,7 +16,7 @@ function App() {
     }
   }
   return (
-    <div onScroll={playAudio}>
+    <div onScroll={playAudio} onClick={playAudio} onTouchStart={playAudio}>
       <Header />
       <Banner />
       <Gallery />
